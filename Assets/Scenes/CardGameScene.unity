@@ -292,7 +292,7 @@ MonoBehaviour:
   currentHealth: 0
   healthBar: {fileID: 0}
   healthText: {fileID: 0}
-  maxMana: 10
+  maxMana: 300
   currentMana: 0
   manaBar: {fileID: 0}
   manaText: {fileID: 0}
@@ -727,15 +727,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: df3f36bfd1229cc42af1925f4ff1e229, type: 2}
   - {fileID: 11400000, guid: a227c9a8fc86b6b4a878719906d2ceb1, type: 2}
   - {fileID: 11400000, guid: 32a65964112333b49ae82c728827e117, type: 2}
-  - {fileID: 11400000, guid: df3f36bfd1229cc42af1925f4ff1e229, type: 2}
-  - {fileID: 11400000, guid: a227c9a8fc86b6b4a878719906d2ceb1, type: 2}
-  - {fileID: 11400000, guid: 32a65964112333b49ae82c728827e117, type: 2}
-  - {fileID: 11400000, guid: df3f36bfd1229cc42af1925f4ff1e229, type: 2}
-  - {fileID: 11400000, guid: a227c9a8fc86b6b4a878719906d2ceb1, type: 2}
-  - {fileID: 11400000, guid: 32a65964112333b49ae82c728827e117, type: 2}
-  - {fileID: 11400000, guid: df3f36bfd1229cc42af1925f4ff1e229, type: 2}
-  - {fileID: 11400000, guid: a227c9a8fc86b6b4a878719906d2ceb1, type: 2}
-  - {fileID: 11400000, guid: 32a65964112333b49ae82c728827e117, type: 2}
+  - {fileID: 11400000, guid: 646418a1c7f9acb4fbf1da9eb8b3397b, type: 2}
+  - {fileID: 11400000, guid: d43d3112add024b4c850f34b5b9d2ac9, type: 2}
+  - {fileID: 11400000, guid: 9ba8831842d55e840aae0a9300307a58, type: 2}
+  - {fileID: 11400000, guid: 646418a1c7f9acb4fbf1da9eb8b3397b, type: 2}
+  - {fileID: 11400000, guid: d43d3112add024b4c850f34b5b9d2ac9, type: 2}
+  - {fileID: 11400000, guid: 9ba8831842d55e840aae0a9300307a58, type: 2}
+  - {fileID: 11400000, guid: 646418a1c7f9acb4fbf1da9eb8b3397b, type: 2}
+  - {fileID: 11400000, guid: d43d3112add024b4c850f34b5b9d2ac9, type: 2}
+  - {fileID: 11400000, guid: 9ba8831842d55e840aae0a9300307a58, type: 2}
   handCards: []
   discardCards: []
   cardPrefabs: {fileID: 6664105280060188664, guid: 26d2d104234e77445a1186f31bcf94cc, type: 3}
@@ -744,6 +744,7 @@ MonoBehaviour:
   discardPosition: {fileID: 1441872269}
   cardObjects: []
   playerStats: {fileID: 641162421}
+  EnemyStats: {fileID: 539010564}
 --- !u!4 &938832977
 Transform:
   m_ObjectHideFlags: 0
